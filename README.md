@@ -25,7 +25,7 @@ If file name is main.c only enter
 OR
 ```bash
 bash runc
-
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
