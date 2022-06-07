@@ -1,0 +1,9 @@
+#!/bin/bash
+filename='main.c'
+if [ $# -ne 0 ]
+  then
+    filename=$1
+fi
+IFS='.' read -ra ADDR <<< "$filename"
+gcc $filename -o "${ADDR[0]}.out"
+./${ADDR[0]}.out
